@@ -59,3 +59,20 @@ Example: <br>
 ```Markdown
 Code: ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
 ```
+The other style is called "**Reference Image**".
+
+You can kind a compare it with working with variables. An example:
+```markdown
+![Black cat][Black]
+
+[Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg
+```
+
+This will give the following result in this document: <br>
+![Black cat][Black]
+
+[Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg
+
+
+## Blockquotes
+
