@@ -54,7 +54,7 @@ You can create such an image link by adding an !, wrap the **alt text** in squar
 <br>
 <br>
 Example: <br>
-![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) 
 <br>
 ```Markdown
 Code: ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
@@ -75,4 +75,123 @@ This will give the following result in this document: <br>
 
 
 ## Blockquotes
+If you need to refer to a quote from another source, want to mention a quote written in a newspaper, ... then you need to use Markdown's blockquotes-syntax! 
+<br>
+<br>
+This is a sentence/paragraph that has been formatted to draw attention to the reader.
+<br>
+<br>
+Example: <br>
+> "I like learning Markdown!!!" 
 
+
+To create this, you just have to add a ">" in front of the text you want to represent as a blockquote
+<br>
+<br>
+Other Example: <br>
+> "Blockquotes are not that hard!"
+
+<br>
+Code:
+
+```Markdown
+> "Blockquotes are not that hard!"
+```
+
+<br>
+You can also use this ">" sign for multiple lines in a paragraph. This is usefull when your quote spans over multiple paragraphs.
+<br>
+<br>
+Example:
+
+> His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+>
+> —Of whom are you speaking? Stephen asked at length.
+>
+> Cranly did not answer.
+
+Code:
+
+```Markdown
+> His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+>
+> —Of whom are you speaking? Stephen asked at length.
+>
+> Cranly did not answer.
+```
+
+You can also combine blockquotes with itallic and bold styling, or even links and images. 
+
+Example:
+>He left her quickly, fearing that her intimacy might turn to jibing and wishing to be out of the way before she offered her ware to another, a tourist from England or a student of Trinity. Grafton Street, along which he walked, prolonged that moment of discouraged poverty. In the roadway at the head of the street a slab was set to the memory of Wolfe Tone and he remembered having been present with his father at its laying. He remembered with bitterness that scene of tawdry tribute. There were four French delegates in a brake and one, a plump smiling young man, held, wedged on a stick, a card on which were printed the words: _VIVE L'IRLANDE_!
+
+Code:
+
+```Markdown
+>He left her quickly, fearing that her intimacy might turn to jibing and wishing to be out of the way before she offered her ware to another, a tourist from England or a student of Trinity. Grafton Street, along which he walked, prolonged that moment of discouraged poverty. In the roadway at the head of the street a slab was set to the memory of Wolfe Tone and he remembered having been present with his father at its laying. He remembered with bitterness that scene of tawdry tribute. There were four French delegates in a brake and one, a plump smiling young man, held, wedged on a stick, a card on which were printed the words: _VIVE L'IRLANDE_!
+```
+
+## Lists
+In this part of the guide, we'll take a closer on look on **Lists**.
+<br>
+There are 2 types of links in Mardkwon: **Ordered** and **Unordered**.
+<br>
+Let's first learn a bit about unordered lists.
+<br>
+<br>
+To create this kind of list, you have to put in front of every item you want the list to contain an asterisk ( * ) and after this asterisk you put a space. <br>
+
+Example:
+* Milk
+* Butter
+* Chocolate
+* Geforce RTX 3060
+
+Code:
+```Markdown
+Don't forget to add the space!
+* Milk
+* Butter
+* Chocolate
+* Geforce RTX 3060
+```
+
+Let's now take a look at the other variant, namely **Ordered Lists**.
+
+This kind of list is different from the other one because it contains a number in front of earch element in that list.
+
+And just like that, you make this kind of list. Just add a number (1,2,3 ...) in front of each element, followed by a dot ( . ) and then a space.
+
+Example:
+
+1. Emerald
+2. Ruby
+3. Sapphire
+
+Code:
+```Markdown
+Don't forget to add the space and dot!
+1. Emerald
+2. Ruby
+3. Sapphire
+```
+
+Of course, you can also add itallic or bold styling to each element in the list.
+
+Example:
+* **Azalea** (_Ericaceae Rhododendron_)
+* **Chrysanthemum** (_Anthemideae Chrysanthemum_)
+* **Dahlia** (_Coreopsideae Dahlia_)
+
+Code:
+```Markdown
+* **Azalea** (_Ericaceae Rhododendron_)
+* **Chrysanthemum** (_Anthemideae Chrysanthemum_)
+* **Dahlia** (_Coreopsideae Dahlia_)
+```
