@@ -11,7 +11,17 @@ I've studied Markdown by following these links:
 2. Surround a word with 2 '**' to make it **bold**
 
 Note: You can combine these 2 to make a word _itallic_ AND **bold** <br>
-example -> **_This is an itallic bold sentence_**
+
+example:
+
+**_This is an itallic bold sentence_**
+
+Code:
+
+```Markdown
+**_This is an itallic bold sentence_**
+```
+
 
 ## Headers
 There are 6 types of headers, each decreasing in size as we go downwards. <br>
