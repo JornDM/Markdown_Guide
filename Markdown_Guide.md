@@ -265,3 +265,118 @@ It would look like this:
    * Use both hands
    * Always have a towel nearby in case of messes
 
+
+## Paragraphs 
+
+Markdown has several methods that you can use to format your paragraphs. <br>
+You have 2 ways to start a new line in Markdown: **hard break** and **soft break**.
+
+First, we are going to discuss the hard break. With this, you can add a new line by just adding a new blank line in your markdown file.
+
+Example:
+```
+# We want to write this text in Markdown, it should look like this:
+
+Do I contradict myself?
+Very well then I contradict myself,
+(I am large, I contain multitudes.
+```
+
+Attempt 1: we just write it like we see it in the box above.
+ <br>
+ Result:
+ Do I contradict myself?
+Very well then I contradict myself,
+(I am large, I contain multitudes.)
+
+We see that, by just copy-pasting the block of text there are no new lines taken. Even though the text in the box is on seperate lines.
+<br>
+<br>
+Solution: **hard break** 
+
+Do I contradict myself?
+
+Very well then I contradict myself,
+
+(I am large, I contain multitudes.)
+
+Code:
+```Markdown
+Note: after each sentence we make sure there is an extra blank line inbeteen the previous and the next one.
+
+Do I contradict myself?
+
+Very well then I contradict myself,
+
+(I am large, I contain multitudes.)
+```
+
+The other solution is called a **soft break**.   
+We can perform a soft break by adding 2 spaces after the sentence.  
+Though they are not visable, it is a great way to add a new line. 
+
+Example:  
+Do I contradict myself?  
+Very well then I contradict myself,  
+(I am large, I contain multitudes.)  
+
+Code:  
+```Markdown
+Don't forget to add the 2 spaces AFTER your sentence!  
+
+Do I contradict myself?  
+Very well then I contradict myself,  
+(I am large, I contain multitudes.) 
+```
+
+## Code
+Markdown is very useful when it comes to adding code to your document.<br>
+There is an option to format your code so it is easy readable and understandable.  
+We can add some code by just adding 3x an ` and then putting our code after this. Then we finish it again by adding another 3 of these signs.
+
+An example will explain this better:
+```
+x=10
+print('Hello world')
+
+if(x<5):
+  print('The number is bigger than 10!')
+```
+
+Code:
+```Markdown
+Note: without the #
+#```
+x=10
+print('Hello world')
+
+if(x<5):
+  print('The number is bigger than 10!')
+#```
+```
+
+If you want to make your code to look prettier, you can write right after the 3 ` what programming-language you are using.
+
+Example (we are going to use the code from the example above again, this is **Python code.**):
+
+```python
+Note: You can see that this box contains colours for some keywords and values!
+x=10
+print('Hello world')
+
+if(x<5):
+  print('The number is bigger than 10!')
+```
+
+Code:
+```
+Note: we added the python right after the 3 ` 
+```python
+Note: You can see that this box contains colours for some keywords and values!
+x=10
+print('Hello world')
+
+if(x<5):
+  print('The number is bigger than 10!')
+´´´
+```
