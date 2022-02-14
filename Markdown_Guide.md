@@ -11,17 +11,7 @@ I've studied Markdown by following these links:
 2. Surround a word with 2 '**' to make it **bold**
 
 Note: You can combine these 2 to make a word _itallic_ AND **bold** <br>
-
-example:
-
-**_This is an itallic bold sentence_**
-
-Code:
-
-```Markdown
-**_This is an itallic bold sentence_**
-```
-
+example -> **_This is an itallic bold sentence_**
 
 ## Headers
 There are 6 types of headers, each decreasing in size as we go downwards. <br>
@@ -50,7 +40,20 @@ Code: "[Go to GitHub] (https://github.com/)" Without the space inbetween!
 
 The other type of link is called the "**reference link**". This kind of link is used to refer to an other place situated in the document.
 <br>
-I'll need to ask this part, didn't really fully understand
+
+You can also refer to certain headings in your document. <br>
+This can be useful when creating a content table to refer to certain items in your document.
+
+Example:
+
+[Press here](#headers) to learn more about headers!
+
+Code:
+```Markdown
+[Press here](#headers) to learn more about headers!
+
+Note: Even though the header for headers is a level 2 header (2 "#"s), we still just add one # when creating this link!
+```
 
 ## Images
 Now that we know how to create links, we can also add images to our Markdown-page. The syntax is (almost) identical.
@@ -262,4 +265,3 @@ It would look like this:
    * Use both hands
    * Always have a towel nearby in case of messes
 
-   
